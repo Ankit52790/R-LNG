@@ -1,0 +1,7 @@
+data() # list of all package
+library(help="datasets") # here will be some as data
+?iris
+str(iris)
+
+iris
+data("iris")
