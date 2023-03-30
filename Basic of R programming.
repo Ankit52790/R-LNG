@@ -1,0 +1,24 @@
+#Basic program in R programming
+
+
+2+3
+3+4
+# Demo Comment
+print("Hello World")
+x<- 2
+x<-3
+x
+y<-c(1,2,3,4,5)
+y<-1:10
+x<-y<-1:10
+x+y
+z<-x+y
+z2<-x*y
+z3<-x/y
+X<-10
+
+ls()
+
+rm(X)
+remove(z2) // Delete specific part
+rm(list=ls()) // Delete all lsit of program from the environment
