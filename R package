@@ -1,0 +1,21 @@
+# How to install package in R Programming
+
+#Some usefull website for R
+
+#http://cran.r-project.org/web/views/
+#http://cran.stat.ucla.edu/web/packages/available_packages_by
+browseURL("http://cran.r-project.org/web/views/")
+
+install.packages("LiblineaR")
+# list of all package by this command
+library()
+
+# Search uses command
+search()
+
+require("LiblineaR")
+
+detach("package:LiblineaR",unload = TRUE)
+remove.packages("LiblineaR")
+
+?ggplot2
